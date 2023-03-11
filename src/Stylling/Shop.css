@@ -1,0 +1,113 @@
+.shop-header {
+    color: #BC1D34;
+    margin: 5% 0%;
+}
+
+#shop-card-img {
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+#shop-card {
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+    margin: auto;
+    border-style: none;
+
+}
+#shop-card:hover{
+    transform: scale(1.1);
+
+}
+
+.shop-card-name {
+    color: #BC1D34;
+    font-size: x-large;
+    margin-top: 2%;
+}
+
+.shop-card-price {
+    font-size: x-large;
+    margin-bottom: 7%;
+    margin-top: -3%;
+    color: black;
+}
+
+.top-right {
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    background-color: #BC1D34;
+    padding: 5% 3%;
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: larger;
+
+}
+/**************Deal*/
+.Shop-Deal-p {
+    color: #BC1D34;
+    font-family:'Paprika';
+}
+.Shop-Deal-h1{
+    color: #BC1D34;
+}
+
+.Shop-btn {
+    background-color: hsla(0, 0%, 100%);
+    color:#BC1D34;
+    padding: 1% 5%;
+   height: fit-content;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    font-size:150%;
+    
+}
+#shop-counter{
+    background-color: rgb(188, 29, 52,0%);
+    border-style: none;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-size:1vw;
+}
+#Timer-P{
+    font-family:'Paprika';
+
+}
+
+
+.container {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .text-block {
+    font-size:1vw;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    text-align: center;
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .text-block {
+        font-size:3vw ;
+        position: absolute;
+        top: 20%;
+        right: 3%;
+        text-align: center;
+        
+      }
+      .Shop-Deal-h1{
+        font-size:5vw;
+      }
+      .Shop-Deal-p{
+        font-size:5vw;
+      }
+  }
+  .spinner{margin: 10% 0% 10% 50%;
+}

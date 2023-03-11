@@ -1,0 +1,45 @@
+.Made-Header-p{
+    font-family: 'Paprika';
+    font-size: x-large;
+}
+
+#Made-card{
+    text-align: left;
+    margin: 10% auto 40%; 
+    border:1px solid #f4f4f4;
+    border-top-style: none;
+    width:80%;
+    background-color: #faf9f9;
+}
+#Made-card img{
+    width: 30%;
+    display: -webkit-box;
+    margin:4% 4% 2% auto;
+   
+}
+#Made-card h4{
+    margin-left: 5%;
+}
+#Made-card p{
+    margin-left: 5%;
+    color:  #969494;;
+}
+
+.Made-main-img1{
+    max-width: 80%;
+    height: auto;
+}
+.cart-section{
+    margin-top: 5%;
+}
+.icon-delete{
+    font-size: x-large;
+    color: #BC1D34;
+    cursor: pointer;
+    float: right;
+}
+.buyDone{
+    width: 50%;
+    
+    margin: auto;
+}
